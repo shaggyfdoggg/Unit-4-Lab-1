@@ -10,7 +10,7 @@ while (true)
     {
         double input = double.Parse(Console.ReadLine().Trim().ToLower());
         Circle myRadius = new Circle(input);
-        Console.WriteLine(myRadius.CalculateDiameter(input));
+        Console.WriteLine(myRadius.CalculateDiameter(input)); //Could not figure out how to properly display the method with the string text. Tried interpolation and couldn't get it to work. 
         Console.WriteLine(myRadius.CalculateCircumference(input));
         Console.WriteLine(myRadius.CalculateArea(input));
         while (runProgram = true)
