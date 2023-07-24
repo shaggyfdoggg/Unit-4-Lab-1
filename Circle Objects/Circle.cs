@@ -17,24 +17,28 @@ namespace Circle_Objects
 			Radius = _radius;
 		}
 		//Methods
-		public double CalculateDiameter(double diameter)
+		public double CalculateDiameter()
 		{
-			diameter = Radius * 2;
-			return diameter;
-		}
-		public double CalculateCircumference(double circumference)
+            //double diameter = Radius * 2;
+            //return diameter;
+            return Radius * 2;
+        }
+		public double CalculateCircumference()
 		{
-			circumference = 2 * Math.PI * Radius;
-			return circumference;
-		}
-		public double CalculateArea(double area)
+			//double circumference = 2 * Math.PI * Radius;
+			//return circumference;
+			return 2 * Math.PI * Radius;
+        }
+		public double CalculateArea()
 		{
-			area = Math.PI * Radius * Radius;
-			return area;
-		}
+			//double area = Math.PI * Math.Pow(Radius, 2);
+			//return area;
+			return Math.PI * Math.Pow(Radius, 2);
+        }
 		public void Grow()
 		{
-			Radius = Radius * 2;
+			//Radius = Radius * 2;
+			Radius *= 2;
 		}
 		public double GetRadius()
 		{

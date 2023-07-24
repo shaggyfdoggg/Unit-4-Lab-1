@@ -1,4 +1,15 @@
 ﻿<Properties StartupConfiguration="{313EF3E4-7A92-4740-B53C-2FEBE0B046B1}|Default">
-  <MonoDevelop.Ide.ItemProperties.Circle_220Objects FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Circle Objects/Program.cs">
+    <Files>
+      <File FileName="Circle Objects/Program.cs" Line="13" Column="192" />
+      <File FileName="Circle Objects/Circle.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Circle_220Objects PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
